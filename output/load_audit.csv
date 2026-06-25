@@ -1,0 +1,13 @@
+Table,Rows Read,Rows Loaded,Rejected
+companies,92,92,0
+sectors,92,92,0
+profitandloss,1164,1073,91
+balancesheet,1225,1140,85
+cashflow,1152,1056,96
+analysis,20,4,16
+documents,1584,1456,128
+prosandcons,16,4,12
+stock_prices,5520,5520,0
+market_cap,552,552,0
+financial_ratios,1065,1041,24
+peer_groups,56,56,0

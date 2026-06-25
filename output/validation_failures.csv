@@ -1,0 +1,1283 @@
+rule_id,company_id,year,table,column,issue,severity
+DQ-01,HDFCBANK,,analysis,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,SBILIFE,,analysis,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,TCS,,analysis,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,WIPRO,,analysis,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,INFY,,analysis,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,HDFCBANK,,prosandcons,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,SBILIFE,,prosandcons,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,INFY,,prosandcons,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,WIPRO,,prosandcons,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-01,TCS,,prosandcons,company_id,Duplicate primary key (company_id),CRITICAL
+DQ-03,WIPRO,,analysis,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ULTRACEMCO,2013-03,balancesheet,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNIONBANK,2013-03,balancesheet,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNITDSPR,2013-03,balancesheet,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,VEDL,2013-03,balancesheet,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,WIPRO,2013-03,balancesheet,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ZOMATO,2018-03,balancesheet,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ZYDUSLIFE,2013-03,balancesheet,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,AGTL,2018-03,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ULTRACEMCO,2013-03,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNIONBANK,2013-03,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNITDSPR,2013-03,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,VBL,2012-12,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,VEDL,2013-03,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,WIPRO,2013-03,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ZOMATO,2020-03,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ZYDUSLIFE,2013-03,cashflow,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ULTRACEMCO,2024,documents,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNIONBANK,2024,documents,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNITDSPR,2024,documents,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,VBL,2024,documents,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,VEDL,2024,documents,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,WIPRO,2024,documents,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ZOMATO,2024,documents,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ZYDUSLIFE,2024,documents,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ULTRACEMCO,2013-03,financial_ratios,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNIONBANK,2013-03,financial_ratios,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ULTRACEMCO,2013-03,profitandloss,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNIONBANK,2013-03,profitandloss,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,UNITDSPR,2013-03,profitandloss,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,VBL,2012-12,profitandloss,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,VEDL,2013-03,profitandloss,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,WIPRO,2013-03,profitandloss,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ZOMATO,2018-03,profitandloss,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,ZYDUSLIFE,2013-03,profitandloss,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-03,WIPRO,,prosandcons,company_id,Foreign key missing – company_id not in companies table,CRITICAL
+DQ-05,ADANIENSOL,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=30.00%, computed=34.39%, diff=4.39%",WARNING
+DQ-05,AXISBANK,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=1353.00%, computed=30.58%, diff=1322.42%",WARNING
+DQ-05,AXISBANK,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=2307.00%, computed=31.47%, diff=2275.53%",WARNING
+DQ-05,AXISBANK,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=3097.00%, computed=31.36%, diff=3065.64%",WARNING
+DQ-05,AXISBANK,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=3466.00%, computed=32.61%, diff=3433.39%",WARNING
+DQ-05,AXISBANK,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=-5715.00%, computed=53.45%, diff=5768.45%",WARNING
+DQ-05,AXISBANK,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=-10277.00%, computed=63.12%, diff=10340.12%",WARNING
+DQ-05,AXISBANK,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=-5447.00%, computed=49.39%, diff=5496.39%",WARNING
+DQ-05,AXISBANK,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=-9859.00%, computed=55.98%, diff=9914.98%",WARNING
+DQ-05,AXISBANK,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=-2510.00%, computed=50.12%, diff=2560.12%",WARNING
+DQ-05,AXISBANK,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=3170.00%, computed=44.47%, diff=3125.53%",WARNING
+DQ-05,AXISBANK,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=13857.00%, computed=34.16%, diff=13822.84%",WARNING
+DQ-05,AXISBANK,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=11952.00%, computed=34.69%, diff=11917.31%",WARNING
+DQ-05,BAJFINANCE,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=1367.00%, computed=32.49%, diff=1334.51%",WARNING
+DQ-05,BAJFINANCE,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=1986.00%, computed=32.25%, diff=1953.75%",WARNING
+DQ-05,BAJFINANCE,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=2867.00%, computed=32.60%, diff=2834.40%",WARNING
+DQ-05,BAJFINANCE,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=3935.00%, computed=32.28%, diff=3902.72%",WARNING
+DQ-05,BAJFINANCE,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=6310.00%, computed=29.50%, diff=6280.50%",WARNING
+DQ-05,BAJFINANCE,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=7608.00%, computed=34.73%, diff=7573.27%",WARNING
+DQ-05,BAJFINANCE,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=6314.00%, computed=40.64%, diff=6273.36%",WARNING
+DQ-05,BAJFINANCE,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=9906.00%, computed=37.55%, diff=9868.45%",WARNING
+DQ-05,BAJFINANCE,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=16018.00%, computed=30.65%, diff=15987.35%",WARNING
+DQ-05,BAJFINANCE,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=19987.00%, computed=29.29%, diff=19957.71%",WARNING
+DQ-05,BANKBARODA,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=1006.00%, computed=30.05%, diff=975.95%",WARNING
+DQ-05,BANKBARODA,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=809.00%, computed=29.78%, diff=779.22%",WARNING
+DQ-05,BANKBARODA,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=902.00%, computed=29.98%, diff=872.02%",WARNING
+DQ-05,BANKBARODA,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=-11700.00%, computed=55.44%, diff=11755.44%",WARNING
+DQ-05,BANKBARODA,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=-4372.00%, computed=43.28%, diff=4415.28%",WARNING
+DQ-05,BANKBARODA,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=-9197.00%, computed=56.65%, diff=9253.65%",WARNING
+DQ-05,BANKBARODA,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=-5414.00%, computed=48.79%, diff=5462.79%",WARNING
+DQ-05,BANKBARODA,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=-11728.00%, computed=51.44%, diff=11779.44%",WARNING
+DQ-05,BANKBARODA,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=-6957.00%, computed=51.23%, diff=7008.23%",WARNING
+DQ-05,BANKBARODA,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=-2948.00%, computed=51.12%, diff=2999.12%",WARNING
+DQ-05,BANKBARODA,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=6329.00%, computed=40.45%, diff=6288.55%",WARNING
+DQ-05,BANKBARODA,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=4102.00%, computed=37.49%, diff=4064.51%",WARNING
+DQ-05,CANBK,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=655.00%, computed=21.18%, diff=633.82%",WARNING
+DQ-05,CANBK,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=-672.00%, computed=24.35%, diff=696.35%",WARNING
+DQ-05,CANBK,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=-621.00%, computed=23.51%, diff=644.51%",WARNING
+DQ-05,CANBK,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=-8008.00%, computed=40.38%, diff=8048.38%",WARNING
+DQ-05,CANBK,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=-5775.00%, computed=37.85%, diff=5812.85%",WARNING
+DQ-05,CANBK,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=-13350.00%, computed=61.87%, diff=13411.87%",WARNING
+DQ-05,CANBK,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=-11590.00%, computed=56.73%, diff=11646.73%",WARNING
+DQ-05,CANBK,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=-12867.00%, computed=53.88%, diff=12920.88%",WARNING
+DQ-05,CANBK,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=-18367.00%, computed=61.83%, diff=18428.83%",WARNING
+DQ-05,CANBK,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=-13657.00%, computed=58.39%, diff=13715.39%",WARNING
+DQ-05,CANBK,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=-9877.00%, computed=49.80%, diff=9926.80%",WARNING
+DQ-05,CANBK,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=-7745.00%, computed=41.75%, diff=7786.75%",WARNING
+DQ-05,CHOLAFIN,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=472.00%, computed=26.77%, diff=445.23%",WARNING
+DQ-05,CHOLAFIN,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=578.00%, computed=28.42%, diff=549.58%",WARNING
+DQ-05,CHOLAFIN,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=696.00%, computed=28.56%, diff=667.44%",WARNING
+DQ-05,CHOLAFIN,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=899.00%, computed=30.04%, diff=868.96%",WARNING
+DQ-05,CHOLAFIN,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=1143.00%, computed=28.16%, diff=1114.84%",WARNING
+DQ-05,CHOLAFIN,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=1451.00%, computed=26.10%, diff=1424.90%",WARNING
+DQ-05,CHOLAFIN,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=1888.00%, computed=22.96%, diff=1865.04%",WARNING
+DQ-05,CHOLAFIN,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=1699.00%, computed=27.79%, diff=1671.21%",WARNING
+DQ-05,CHOLAFIN,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=2094.00%, computed=30.40%, diff=2063.60%",WARNING
+DQ-05,CHOLAFIN,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=2924.00%, computed=28.83%, diff=2895.17%",WARNING
+DQ-05,CHOLAFIN,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=3515.00%, computed=28.10%, diff=3486.90%",WARNING
+DQ-05,CHOLAFIN,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=4548.00%, computed=28.10%, diff=4519.90%",WARNING
+DQ-05,CIPLA,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=2214.00%, computed=73.26%, diff=2140.74%",WARNING
+DQ-05,CIPLA,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=2147.00%, computed=78.90%, diff=2068.10%",WARNING
+DQ-05,CIPLA,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=2163.00%, computed=80.94%, diff=2082.06%",WARNING
+DQ-05,CIPLA,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=2480.00%, computed=82.02%, diff=2397.98%",WARNING
+DQ-05,CIPLA,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=2496.00%, computed=82.66%, diff=2413.34%",WARNING
+DQ-05,CIPLA,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=2826.00%, computed=81.35%, diff=2744.65%",WARNING
+DQ-05,CIPLA,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=3097.00%, computed=81.07%, diff=3015.93%",WARNING
+DQ-05,CIPLA,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=3206.00%, computed=81.29%, diff=3124.71%",WARNING
+DQ-05,CIPLA,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=4252.00%, computed=77.80%, diff=4174.20%",WARNING
+DQ-05,CIPLA,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=4553.00%, computed=79.08%, diff=4473.92%",WARNING
+DQ-05,CIPLA,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=5027.00%, computed=77.91%, diff=4949.09%",WARNING
+DQ-05,CIPLA,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=6291.00%, computed=75.59%, diff=6215.41%",WARNING
+DQ-05,COALINDIA,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=18087.00%, computed=73.52%, diff=18013.48%",WARNING
+DQ-05,COALINDIA,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=17766.00%, computed=74.84%, diff=17691.16%",WARNING
+DQ-05,COALINDIA,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=17343.00%, computed=76.60%, diff=17266.40%",WARNING
+DQ-05,COALINDIA,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=18714.00%, computed=75.96%, diff=18638.04%",WARNING
+DQ-05,COALINDIA,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=12448.00%, computed=84.07%, diff=12363.93%",WARNING
+DQ-05,COALINDIA,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=9288.00%, computed=89.10%, diff=9198.90%",WARNING
+DQ-05,COALINDIA,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=25007.00%, computed=74.89%, diff=24932.11%",WARNING
+DQ-05,COALINDIA,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=21581.00%, computed=77.54%, diff=21503.46%",WARNING
+DQ-05,COALINDIA,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=18628.00%, computed=79.31%, diff=18548.69%",WARNING
+DQ-05,COALINDIA,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=24721.00%, computed=77.47%, diff=24643.53%",WARNING
+DQ-05,COALINDIA,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=44232.00%, computed=68.01%, diff=44163.99%",WARNING
+DQ-05,COALINDIA,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=47971.00%, computed=66.29%, diff=47904.71%",WARNING
+DQ-05,HDFCBANK,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=3534.00%, computed=35.22%, diff=3498.78%",WARNING
+DQ-05,HDFCBANK,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=5602.00%, computed=31.74%, diff=5570.26%",WARNING
+DQ-05,HDFCBANK,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=7214.00%, computed=31.90%, diff=7182.10%",WARNING
+DQ-05,HDFCBANK,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=9037.00%, computed=31.75%, diff=9005.25%",WARNING
+DQ-05,HDFCBANK,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=11374.00%, computed=32.56%, diff=11341.44%",WARNING
+DQ-05,HDFCBANK,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=13374.00%, computed=34.63%, diff=13339.37%",WARNING
+DQ-05,HDFCBANK,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=16592.00%, computed=33.15%, diff=16558.85%",WARNING
+DQ-05,HDFCBANK,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=14593.00%, computed=37.20%, diff=14555.80%",WARNING
+DQ-05,HDFCBANK,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=16848.00%, computed=40.81%, diff=16807.19%",WARNING
+DQ-05,HDFCBANK,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=20795.00%, computed=41.61%, diff=20753.39%",WARNING
+DQ-05,HDFCBANK,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=29932.00%, computed=36.92%, diff=29895.08%",WARNING
+DQ-05,HDFCBANK,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=-44685.00%, computed=61.41%, diff=44746.41%",WARNING
+DQ-05,HDFCLIFE,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=525.00%, computed=96.27%, diff=428.73%",WARNING
+DQ-05,HDFCLIFE,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=605.00%, computed=96.48%, diff=508.52%",WARNING
+DQ-05,HDFCLIFE,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=874.00%, computed=96.79%, diff=777.21%",WARNING
+DQ-05,HDFCLIFE,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=953.00%, computed=94.74%, diff=858.26%",WARNING
+DQ-05,HDFCLIFE,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=972.00%, computed=96.83%, diff=875.17%",WARNING
+DQ-05,HDFCLIFE,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=1074.00%, computed=96.67%, diff=977.33%",WARNING
+DQ-05,HDFCLIFE,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=1215.00%, computed=96.87%, diff=1118.13%",WARNING
+DQ-05,HDFCLIFE,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=1141.00%, computed=96.12%, diff=1044.88%",WARNING
+DQ-05,HDFCLIFE,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=1235.00%, computed=98.27%, diff=1136.73%",WARNING
+DQ-05,HDFCLIFE,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=778.00%, computed=98.84%, diff=679.16%",WARNING
+DQ-05,HDFCLIFE,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=80.00%, computed=99.89%, diff=19.89%",WARNING
+DQ-05,HDFCLIFE,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=531.00%, computed=99.48%, diff=431.52%",WARNING
+DQ-05,HEROMOTOCO,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=3553.00%, computed=85.94%, diff=3467.06%",WARNING
+DQ-05,HEROMOTOCO,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=3520.00%, computed=87.22%, diff=3432.78%",WARNING
+DQ-05,HEROMOTOCO,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=4424.00%, computed=84.45%, diff=4339.55%",WARNING
+DQ-05,HEROMOTOCO,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=4585.00%, computed=83.97%, diff=4501.03%",WARNING
+DQ-05,HEROMOTOCO,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=5334.00%, computed=83.57%, diff=5250.43%",WARNING
+DQ-05,HEROMOTOCO,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=5025.00%, computed=85.21%, diff=4939.79%",WARNING
+DQ-05,HEROMOTOCO,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=4070.00%, computed=86.09%, diff=3983.91%",WARNING
+DQ-05,HEROMOTOCO,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=4058.00%, computed=86.90%, diff=3971.10%",WARNING
+DQ-05,HEROMOTOCO,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=3256.00%, computed=88.98%, diff=3167.02%",WARNING
+DQ-05,HEROMOTOCO,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=4099.00%, computed=88.00%, diff=4011.00%",WARNING
+DQ-05,HEROMOTOCO,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=5235.00%, computed=86.15%, diff=5148.85%",WARNING
+DQ-05,HINDALCO,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=7699.00%, computed=90.40%, diff=7608.60%",WARNING
+DQ-05,HINDALCO,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=8024.00%, computed=90.85%, diff=7933.15%",WARNING
+DQ-05,HINDALCO,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=8844.00%, computed=91.52%, diff=8752.48%",WARNING
+DQ-05,HINDALCO,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=7778.00%, computed=92.12%, diff=7685.88%",WARNING
+DQ-05,HINDALCO,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=12317.00%, computed=87.71%, diff=12229.29%",WARNING
+DQ-05,HINDALCO,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=13695.00%, computed=88.11%, diff=13606.89%",WARNING
+DQ-05,HINDALCO,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=15511.00%, computed=88.12%, diff=15422.88%",WARNING
+DQ-05,HINDALCO,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=14306.00%, computed=87.89%, diff=14218.11%",WARNING
+DQ-05,HINDALCO,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=17559.00%, computed=86.70%, diff=17472.30%",WARNING
+DQ-05,HINDALCO,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=28347.00%, computed=85.47%, diff=28261.53%",WARNING
+DQ-05,HINDALCO,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=22666.00%, computed=89.85%, diff=22576.15%",WARNING
+DQ-05,HINDALCO,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=23872.00%, computed=88.95%, diff=23783.05%",WARNING
+DQ-05,HINDUNILVR,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=4220.00%, computed=84.37%, diff=4135.63%",WARNING
+DQ-05,HINDUNILVR,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=4759.00%, computed=83.72%, diff=4675.28%",WARNING
+DQ-05,HINDUNILVR,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=5412.00%, computed=83.07%, diff=5328.93%",WARNING
+DQ-05,HINDUNILVR,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=5910.00%, computed=81.64%, diff=5828.36%",WARNING
+DQ-05,HINDUNILVR,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=6328.00%, computed=80.92%, diff=6247.08%",WARNING
+DQ-05,HINDUNILVR,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=7499.00%, computed=78.90%, diff=7420.10%",WARNING
+DQ-05,HINDUNILVR,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=8880.00%, computed=77.41%, diff=8802.59%",WARNING
+DQ-05,HINDUNILVR,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=9861.00%, computed=75.21%, diff=9785.79%",WARNING
+DQ-05,HINDUNILVR,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=11626.00%, computed=75.28%, diff=11550.72%",WARNING
+DQ-05,HINDUNILVR,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=12857.00%, computed=75.49%, diff=12781.51%",WARNING
+DQ-05,HINDUNILVR,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=14147.00%, computed=76.65%, diff=14070.35%",WARNING
+DQ-05,HINDUNILVR,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=14659.00%, computed=76.32%, diff=14582.68%",WARNING
+DQ-05,ICICIBANK,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=-15085.00%, computed=70.59%, diff=15155.59%",WARNING
+DQ-05,ICICIBANK,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=-13084.00%, computed=66.40%, diff=13150.40%",WARNING
+DQ-05,ICICIBANK,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=-16120.00%, computed=70.53%, diff=16190.53%",WARNING
+DQ-05,ICICIBANK,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=-26955.00%, computed=88.12%, diff=27043.12%",WARNING
+DQ-05,ICICIBANK,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=-37737.00%, computed=104.76%, diff=37841.76%",WARNING
+DQ-05,ICICIBANK,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=-44906.00%, computed=117.12%, diff=45023.12%",WARNING
+DQ-05,ICICIBANK,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=-50971.00%, computed=116.38%, diff=51087.38%",WARNING
+DQ-05,ICICIBANK,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=-45190.00%, computed=100.62%, diff=45290.62%",WARNING
+DQ-05,ICICIBANK,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=-44805.00%, computed=102.41%, diff=44907.41%",WARNING
+DQ-05,ICICIBANK,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=-26558.00%, computed=84.69%, diff=26642.69%",WARNING
+DQ-05,ICICIBANK,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=-17341.00%, computed=72.57%, diff=17413.57%",WARNING
+DQ-05,ICICIBANK,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=-14152.00%, computed=62.41%, diff=14214.41%",WARNING
+DQ-05,ICICIGI,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=-178.00%, computed=104.46%, diff=282.46%",WARNING
+DQ-05,ICICIGI,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=-225.00%, computed=105.19%, diff=330.19%",WARNING
+DQ-05,ICICIGI,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=-221.00%, computed=105.24%, diff=326.24%",WARNING
+DQ-05,ICICIGI,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=764.00%, computed=87.34%, diff=676.66%",WARNING
+DQ-05,ICICIGI,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=919.00%, computed=87.78%, diff=831.22%",WARNING
+DQ-05,ICICIGI,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=-262.00%, computed=103.79%, diff=365.79%",WARNING
+DQ-05,ICICIGI,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=1669.00%, computed=85.05%, diff=1583.95%",WARNING
+DQ-05,ICICIGI,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=1772.00%, computed=84.61%, diff=1687.39%",WARNING
+DQ-05,ICICIGI,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=2072.00%, computed=82.97%, diff=1989.03%",WARNING
+DQ-05,ICICIGI,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=1016.00%, computed=93.66%, diff=922.34%",WARNING
+DQ-05,ICICIGI,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=1264.00%, computed=92.93%, diff=1171.07%",WARNING
+DQ-05,ICICIGI,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=2577.00%, computed=87.42%, diff=2489.58%",WARNING
+DQ-05,ICICIPRULI,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=745.00%, computed=96.28%, diff=648.72%",WARNING
+DQ-05,ICICIPRULI,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=1504.00%, computed=93.13%, diff=1410.87%",WARNING
+DQ-05,ICICIPRULI,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=1655.00%, computed=95.20%, diff=1559.80%",WARNING
+DQ-05,ICICIPRULI,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=1842.00%, computed=91.17%, diff=1750.83%",WARNING
+DQ-05,ICICIPRULI,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=1806.00%, computed=95.22%, diff=1710.78%",WARNING
+DQ-05,ICICIPRULI,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=1771.00%, computed=95.44%, diff=1675.56%",WARNING
+DQ-05,ICICIPRULI,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=541.00%, computed=98.70%, diff=442.30%",WARNING
+DQ-05,ICICIPRULI,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=-319.00%, computed=101.52%, diff=420.52%",WARNING
+DQ-05,ICICIPRULI,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=-390.00%, computed=100.47%, diff=490.47%",WARNING
+DQ-05,ICICIPRULI,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=-2163.00%, computed=103.40%, diff=2266.40%",WARNING
+DQ-05,ICICIPRULI,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=-1757.00%, computed=103.48%, diff=1860.48%",WARNING
+DQ-05,ICICIPRULI,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=-1829.00%, computed=102.03%, diff=1931.03%",WARNING
+DQ-05,INDUSINDBK,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=286.00%, computed=27.88%, diff=258.12%",WARNING
+DQ-05,INDUSINDBK,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=335.00%, computed=30.95%, diff=304.05%",WARNING
+DQ-05,INDUSINDBK,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=288.00%, computed=32.33%, diff=255.67%",WARNING
+DQ-05,INDUSINDBK,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=329.00%, computed=35.28%, diff=293.72%",WARNING
+DQ-05,INDUSINDBK,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=379.00%, computed=39.46%, diff=339.54%",WARNING
+DQ-05,INDUSINDBK,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=942.00%, computed=37.93%, diff=904.07%",WARNING
+DQ-05,INDUSINDBK,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=-437.00%, computed=41.70%, diff=478.70%",WARNING
+DQ-05,INDUSINDBK,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=-553.00%, computed=43.81%, diff=596.81%",WARNING
+DQ-05,INDUSINDBK,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=-2469.00%, computed=55.16%, diff=2524.16%",WARNING
+DQ-05,INDUSINDBK,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=-839.00%, computed=51.39%, diff=890.39%",WARNING
+DQ-05,INDUSINDBK,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=2067.00%, computed=42.69%, diff=2024.31%",WARNING
+DQ-05,INDUSINDBK,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=2978.00%, computed=38.55%, diff=2939.45%",WARNING
+DQ-05,JIOFIN,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=88.00%, computed=86.67%, diff=1.33%",WARNING
+DQ-05,KOTAKBANK,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=-1789.00%, computed=60.92%, diff=1849.92%",WARNING
+DQ-05,KOTAKBANK,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=-1379.00%, computed=58.84%, diff=1437.84%",WARNING
+DQ-05,KOTAKBANK,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=-3366.00%, computed=72.96%, diff=3438.96%",WARNING
+DQ-05,KOTAKBANK,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=-2263.00%, computed=56.57%, diff=2319.57%",WARNING
+DQ-05,KOTAKBANK,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=-3965.00%, computed=66.44%, diff=4031.44%",WARNING
+DQ-05,KOTAKBANK,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=-4141.00%, computed=66.87%, diff=4207.87%",WARNING
+DQ-05,KOTAKBANK,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=-5114.00%, computed=66.23%, diff=5180.23%",WARNING
+DQ-05,KOTAKBANK,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=-5005.00%, computed=67.45%, diff=5072.45%",WARNING
+DQ-05,KOTAKBANK,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=-9958.00%, computed=90.83%, diff=10048.83%",WARNING
+DQ-05,KOTAKBANK,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=-8512.00%, computed=90.98%, diff=8602.98%",WARNING
+DQ-05,KOTAKBANK,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=-5746.00%, computed=79.44%, diff=5825.44%",WARNING
+DQ-05,KOTAKBANK,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=-13382.00%, computed=83.67%, diff=13465.67%",WARNING
+DQ-05,SUNPHARMA,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=28.00%, computed=26.84%, diff=1.16%",WARNING
+DQ-05,INDIGO,2013-03,profitandloss,opm_percentage,"OPM mismatch: stored=855.00%, computed=90.71%, diff=764.29%",WARNING
+DQ-05,INDIGO,2014-03,profitandloss,opm_percentage,"OPM mismatch: stored=433.00%, computed=96.11%, diff=336.89%",WARNING
+DQ-05,INDIGO,2015-03,profitandloss,opm_percentage,"OPM mismatch: stored=1904.00%, computed=86.33%, diff=1817.67%",WARNING
+DQ-05,INDIGO,2016-03,profitandloss,opm_percentage,"OPM mismatch: stored=3164.00%, computed=80.40%, diff=3083.60%",WARNING
+DQ-05,INDIGO,2017-03,profitandloss,opm_percentage,"OPM mismatch: stored=2219.00%, computed=88.06%, diff=2130.94%",WARNING
+DQ-05,INDIGO,2018-03,profitandloss,opm_percentage,"OPM mismatch: stored=3030.00%, computed=86.84%, diff=2943.16%",WARNING
+DQ-05,INDIGO,2019-03,profitandloss,opm_percentage,"OPM mismatch: stored=-151.00%, computed=100.53%, diff=251.53%",WARNING
+DQ-05,INDIGO,2020-03,profitandloss,opm_percentage,"OPM mismatch: stored=4069.00%, computed=88.62%, diff=3980.38%",WARNING
+DQ-05,INDIGO,2021-03,profitandloss,opm_percentage,"OPM mismatch: stored=2.00%, computed=99.98%, diff=97.98%",WARNING
+DQ-05,INDIGO,2022-03,profitandloss,opm_percentage,"OPM mismatch: stored=558.00%, computed=97.85%, diff=460.15%",WARNING
+DQ-05,INDIGO,2023-03,profitandloss,opm_percentage,"OPM mismatch: stored=6521.00%, computed=88.02%, diff=6432.98%",WARNING
+DQ-05,INDIGO,2024-03,profitandloss,opm_percentage,"OPM mismatch: stored=16331.00%, computed=76.30%, diff=16254.70%",WARNING
+DQ-06,ADANIENSOL,2014-03,profitandloss,sales,Sales is negative or zero: 0,CRITICAL
+DQ-07,TVSMOTOR,2022-03,cashflow,net_cash_flow,"Cash flow mismatch: expected=-128.0, actual=532.0, diff=660.0 Cr",WARNING
+DQ-08,ADANIENSOL,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=34.00%, computed=-40.00%, diff=74.00%",WARNING
+DQ-08,ADANIENT,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=25.00%, computed=14.27%, diff=10.73%",WARNING
+DQ-08,ADANIENT,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=23.00%, computed=-21.97%, diff=44.97%",WARNING
+DQ-08,ADANIENT,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=32.00%, computed=-10.24%, diff=42.24%",WARNING
+DQ-08,ADANIENT,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=29.00%, computed=7.31%, diff=21.69%",WARNING
+DQ-08,ADANIENT,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=31.00%, computed=3.68%, diff=27.32%",WARNING
+DQ-08,ADANIENT,2022-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=50.00%, computed=17.23%, diff=32.77%",WARNING
+DQ-08,ADANIENT,2023-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=32.00%, computed=25.41%, diff=6.59%",WARNING
+DQ-08,ADANIGREEN,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-75.00%, computed=74.46%, diff=149.46%",WARNING
+DQ-08,ADANIGREEN,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-35.00%, computed=34.29%, diff=69.29%",WARNING
+DQ-08,ADANIGREEN,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-19.00%, computed=18.80%, diff=37.80%",WARNING
+DQ-08,ADANIGREEN,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=23.00%, computed=-36.00%, diff=59.00%",WARNING
+DQ-08,ADANIPOWER,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=26.00%, computed=-26.24%, diff=52.24%",WARNING
+DQ-08,ADANIPOWER,2014-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-79.00%, computed=78.76%, diff=157.76%",WARNING
+DQ-08,BAJAJ-AUTO,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=31.00%, computed=25.89%, diff=5.11%",WARNING
+DQ-08,AXISBANK,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-99.00%, computed=-126.23%, diff=27.23%",WARNING
+DQ-08,BAJAJHLDNG,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=21.00%, computed=-476.40%, diff=497.40%",WARNING
+DQ-08,BAJAJHLDNG,2014-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=20.00%, computed=-397.00%, diff=417.00%",WARNING
+DQ-08,BAJAJHLDNG,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=19.00%, computed=-295.52%, diff=314.52%",WARNING
+DQ-08,BAJAJHLDNG,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=21.00%, computed=-426.74%, diff=447.74%",WARNING
+DQ-08,BAJAJHLDNG,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=21.00%, computed=-292.54%, diff=313.54%",WARNING
+DQ-08,BANKBARODA,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-19.00%, computed=19.25%, diff=38.25%",WARNING
+DQ-08,BANKBARODA,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-9.00%, computed=12.82%, diff=21.82%",WARNING
+DQ-08,BANKBARODA,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=29.00%, computed=23.54%, diff=5.46%",WARNING
+DQ-08,BANKBARODA,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-99.00%, computed=179.50%, diff=278.50%",WARNING
+DQ-08,BHARTIARTL,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-99.00%, computed=197.46%, diff=296.46%",WARNING
+DQ-08,BHARTIARTL,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-28.00%, computed=28.43%, diff=56.43%",WARNING
+DQ-08,BHARTIARTL,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=-260.26%, diff=359.26%",WARNING
+DQ-08,BHEL,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-39.00%, computed=39.19%, diff=78.19%",WARNING
+DQ-08,BHEL,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=-122.76%, diff=221.76%",WARNING
+DQ-08,BHEL,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-25.00%, computed=24.92%, diff=49.92%",WARNING
+DQ-08,CANBK,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-13.00%, computed=13.01%, diff=26.01%",WARNING
+DQ-08,CANBK,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=29.00%, computed=19.19%, diff=9.81%",WARNING
+DQ-08,CANBK,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-36.00%, computed=39.56%, diff=75.56%",WARNING
+DQ-08,CANBK,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-99.00%, computed=132.97%, diff=231.97%",WARNING
+DQ-08,CANBK,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=34.00%, computed=-26.88%, diff=60.88%",WARNING
+DQ-08,CANBK,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=30.00%, computed=23.83%, diff=6.17%",WARNING
+DQ-08,DLF,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=55.00%, computed=70.27%, diff=15.27%",WARNING
+DQ-08,DLF,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=22.00%, computed=31.26%, diff=9.26%",WARNING
+DQ-08,DLF,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=43.00%, computed=-103.41%, diff=146.41%",WARNING
+DQ-08,DLF,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=190.35%, diff=91.35%",WARNING
+DQ-08,DLF,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=43.00%, computed=-28.93%, diff=71.93%",WARNING
+DQ-08,DLF,2022-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=28.00%, computed=-28.76%, diff=56.76%",WARNING
+DQ-08,DLF,2023-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=27.00%, computed=-35.42%, diff=62.42%",WARNING
+DQ-08,DLF,2024-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=24.00%, computed=-26.64%, diff=50.64%",WARNING
+DQ-08,EICHERMOT,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=30.00%, computed=37.10%, diff=7.10%",WARNING
+DQ-08,EICHERMOT,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=25.00%, computed=38.86%, diff=13.86%",WARNING
+DQ-08,GODREJCP,2024-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=383.33%, diff=284.33%",WARNING
+DQ-08,HINDALCO,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=75.00%, computed=23.82%, diff=51.18%",WARNING
+DQ-08,HINDALCO,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=-245.81%, diff=344.81%",WARNING
+DQ-08,IOC,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-74.00%, computed=73.86%, diff=147.86%",WARNING
+DQ-08,JINDALSTEL,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-6.00%, computed=5.90%, diff=11.90%",WARNING
+DQ-08,JINDALSTEL,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-22.00%, computed=22.12%, diff=44.12%",WARNING
+DQ-08,JINDALSTEL,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-17.00%, computed=16.60%, diff=33.60%",WARNING
+DQ-08,JINDALSTEL,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-13.00%, computed=13.30%, diff=26.30%",WARNING
+DQ-08,JINDALSTEL,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-14.00%, computed=13.92%, diff=27.92%",WARNING
+DQ-08,JINDALSTEL,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=37.00%, computed=-37.46%, diff=74.46%",WARNING
+DQ-08,JSWENERGY,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=6.00%, computed=-98.71%, diff=104.71%",WARNING
+DQ-08,JSWSTEEL,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=42.00%, computed=53.53%, diff=11.53%",WARNING
+DQ-08,JSWSTEEL,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-80.00%, computed=80.51%, diff=160.51%",WARNING
+DQ-08,LT,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=30.00%, computed=42.74%, diff=12.74%",WARNING
+DQ-08,M&M,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=35.00%, computed=26.00%, diff=9.00%",WARNING
+DQ-08,M&M,2014-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=26.00%, computed=11.44%, diff=14.56%",WARNING
+DQ-08,M&M,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=40.00%, computed=21.61%, diff=18.39%",WARNING
+DQ-08,M&M,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=119.40%, diff=20.40%",WARNING
+DQ-08,MOTHERSON,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-5.00%, computed=34.75%, diff=39.75%",WARNING
+DQ-08,MOTHERSON,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=34.00%, computed=-4.60%, diff=38.60%",WARNING
+DQ-08,NAUKRI,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=123.33%, diff=24.33%",WARNING
+DQ-08,NAUKRI,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=960.00%, diff=861.00%",WARNING
+DQ-08,NAUKRI,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=95.00%, computed=-95.24%, diff=190.24%",WARNING
+DQ-08,NAUKRI,2023-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=149.65%, diff=50.65%",WARNING
+DQ-08,PNB,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-31.00%, computed=33.69%, diff=64.69%",WARNING
+DQ-08,PNB,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=41.00%, computed=19.55%, diff=21.45%",WARNING
+DQ-08,PNB,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-37.00%, computed=38.98%, diff=75.98%",WARNING
+DQ-08,PNB,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-35.00%, computed=37.87%, diff=72.87%",WARNING
+DQ-08,PNB,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=56.00%, computed=41.35%, diff=14.65%",WARNING
+DQ-08,SBIN,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=110.26%, diff=11.26%",WARNING
+DQ-08,SBIN,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-66.00%, computed=69.38%, diff=135.38%",WARNING
+DQ-08,SBIN,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=41.00%, computed=35.80%, diff=5.20%",WARNING
+DQ-08,SBIN,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=40.00%, computed=30.27%, diff=9.73%",WARNING
+DQ-08,SHREECEM,2022-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=19.00%, computed=56.12%, diff=37.12%",WARNING
+DQ-08,SHREECEM,2023-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=15.00%, computed=-58.46%, diff=73.46%",WARNING
+DQ-08,SHREECEM,2024-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=19.00%, computed=41.43%, diff=22.43%",WARNING
+DQ-08,TATACONSUM,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=121.76%, diff=22.76%",WARNING
+DQ-08,TATACONSUM,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=34.00%, computed=43.14%, diff=9.14%",WARNING
+DQ-08,TATACONSUM,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=24.00%, computed=29.06%, diff=5.06%",WARNING
+DQ-08,TATACONSUM,2024-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=23.00%, computed=28.36%, diff=5.36%",WARNING
+DQ-08,TATAMOTORS,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=35.00%, computed=18.87%, diff=16.13%",WARNING
+DQ-08,TATAMOTORS,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=39.00%, computed=18.50%, diff=20.50%",WARNING
+DQ-08,TATAMOTORS,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-8.00%, computed=8.44%, diff=16.44%",WARNING
+DQ-08,TATAMOTORS,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=4.00%, computed=-13.19%, diff=17.19%",WARNING
+DQ-08,TATAMOTORS,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=24.00%, computed=-27.89%, diff=51.89%",WARNING
+DQ-08,TATAMOTORS,2022-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=60.00%, computed=-61.49%, diff=121.49%",WARNING
+DQ-08,TATAPOWER,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=53.00%, computed=38.64%, diff=14.36%",WARNING
+DQ-08,TATASTEEL,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=78.00%, computed=-75.95%, diff=153.95%",WARNING
+DQ-08,TATASTEEL,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=-183.79%, diff=282.79%",WARNING
+DQ-08,TATASTEEL,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=357.51%, diff=258.51%",WARNING
+DQ-08,TATASTEEL,2017-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=-199.71%, diff=298.71%",WARNING
+DQ-08,TATASTEEL,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-99.00%, computed=184.16%, diff=283.16%",WARNING
+DQ-08,TATASTEEL,2024-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=-328.07%, diff=427.07%",WARNING
+DQ-08,TECHM,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=24.00%, computed=-33.64%, diff=57.64%",WARNING
+DQ-08,TRENT,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=-170.00%, diff=269.00%",WARNING
+DQ-08,TRENT,2014-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=2000.00%, diff=1901.00%",WARNING
+DQ-08,TRENT,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-12.00%, computed=11.71%, diff=23.71%",WARNING
+DQ-08,UNIONBANK,2018-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-21.00%, computed=21.11%, diff=42.11%",WARNING
+DQ-08,UNIONBANK,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-25.00%, computed=25.71%, diff=50.71%",WARNING
+DQ-08,UNIONBANK,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-27.00%, computed=24.81%, diff=51.81%",WARNING
+DQ-08,UNITDSPR,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=243.84%, diff=144.84%",WARNING
+DQ-08,UNITDSPR,2014-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=7.00%, computed=-6.55%, diff=13.55%",WARNING
+DQ-08,UNITDSPR,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=3.00%, computed=-3.18%, diff=6.18%",WARNING
+DQ-08,VBL,2013-12,profitandloss,tax_percentage,"Tax rate mismatch: stored=-11.00%, computed=13.04%, diff=24.04%",WARNING
+DQ-08,VBL,2014-12,profitandloss,tax_percentage,"Tax rate mismatch: stored=99.00%, computed=600.00%, diff=501.00%",WARNING
+DQ-08,VEDL,2013-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-25.00%, computed=1410.34%, diff=1435.34%",WARNING
+DQ-08,VEDL,2014-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-9.00%, computed=-20.31%, diff=11.31%",WARNING
+DQ-08,VEDL,2015-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=15.00%, computed=-14.55%, diff=29.55%",WARNING
+DQ-08,VEDL,2016-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-37.00%, computed=37.41%, diff=74.41%",WARNING
+DQ-08,VEDL,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-43.00%, computed=42.56%, diff=85.56%",WARNING
+DQ-08,ZOMATO,2023-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-4.00%, computed=4.33%, diff=8.33%",WARNING
+DQ-08,INDIGO,2019-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-99.00%, computed=204.70%, diff=303.70%",WARNING
+DQ-08,INDIGO,2020-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=-10.00%, computed=9.82%, diff=19.82%",WARNING
+DQ-08,INDIGO,2021-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=0.00%, computed=-5.85%, diff=5.85%",WARNING
+DQ-08,INDIGO,2022-03,profitandloss,tax_percentage,"Tax rate mismatch: stored=0.00%, computed=94.86%, diff=94.86%",WARNING
+DQ-09,BHARTIARTL,2019-03,profitandloss,dividend_payout,Unrealistic dividend payout: 244.0%,WARNING
+DQ-09,BRITANNIA,2021-03,profitandloss,dividend_payout,Unrealistic dividend payout: 204.0%,WARNING
+DQ-09,M&M,2020-03,profitandloss,dividend_payout,Unrealistic dividend payout: 205.0%,WARNING
+DQ-09,SBIN,2017-03,profitandloss,dividend_payout,Unrealistic dividend payout: 859.0%,WARNING
+DQ-09,TATAPOWER,2015-03,profitandloss,dividend_payout,Unrealistic dividend payout: 210.0%,WARNING
+DQ-09,VEDL,2023-03,profitandloss,dividend_payout,Unrealistic dividend payout: 357.0%,WARNING
+DQ-09,VEDL,2024-03,profitandloss,dividend_payout,Unrealistic dividend payout: 259.0%,WARNING
+DQ-10,JSWENERGY,2018-03,profitandloss,eps,"EPS sign mismatch: net_profit=85, eps=0.0",WARNING
+DQ-10,TATAPOWER,2013-03,profitandloss,eps,"EPS sign mismatch: net_profit=123, eps=0.0",WARNING
+DQ-10,TATAPOWER,2014-03,profitandloss,eps,"EPS sign mismatch: net_profit=12, eps=-1.0",WARNING
+DQ-10,VBL,2016-12,profitandloss,eps,"EPS sign mismatch: net_profit=48, eps=0.0",WARNING
+DQ-10,ZOMATO,2024-03,profitandloss,eps,"EPS sign mismatch: net_profit=351, eps=0.0",WARNING
+DQ-11,ADANIENSOL,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIENSOL,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIENSOL,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIENSOL,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIENSOL,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIENSOL,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIENSOL,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIGREEN,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2019,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2018,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPORTS,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPOWER,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPOWER,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPOWER,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPOWER,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPOWER,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ADANIPOWER,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,AMBUJACEM,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,AMBUJACEM,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,AMBUJACEM,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,AMBUJACEM,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,AMBUJACEM,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,APOLLOHOSP,2019,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,APOLLOHOSP,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,APOLLOHOSP,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,APOLLOHOSP,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ASIANPAINT,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ASIANPAINT,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ASIANPAINT,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ASIANPAINT,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2018,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ATGL,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,AXISBANK,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,AXISBANK,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJAJ-AUTO,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJAJ-AUTO,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJAJ-AUTO,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJAJFINSV,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJAJFINSV,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJAJHLDNG,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJAJHLDNG,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJFINANCE,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BAJFINANCE,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BRITANNIA,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,BRITANNIA,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,CANBK,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,CANBK,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,CHOLAFIN,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,CHOLAFIN,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,CHOLAFIN,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,CIPLA,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,CIPLA,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,COALINDIA,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DABUR,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DABUR,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DLF,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DLF,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DMART,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DMART,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DMART,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DMART,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DMART,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DMART,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DMART,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DMART,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DRREDDY,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DRREDDY,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,DRREDDY,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,EICHERMOT,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,EICHERMOT,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,GAIL,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,GAIL,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,GODREJCP,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,GODREJCP,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,GRASIM,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,GRASIM,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HAL,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HAVELLS,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HAVELLS,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HCLTECH,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HCLTECH,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HCLTECH,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCBANK,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCBANK,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCBANK,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCBANK,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCLIFE,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCLIFE,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCLIFE,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCLIFE,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HDFCLIFE,2008,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HEROMOTOCO,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HEROMOTOCO,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HINDALCO,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HINDALCO,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HINDUNILVR,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,HINDUNILVR,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ICICIBANK,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ICICIGI,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ICICIPRULI,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ICICIPRULI,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ICICIPRULI,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDIGO,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDIGO,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDIGO,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDIGO,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDIGO,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDIGO,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDIGO,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDUSINDBK,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INDUSINDBK,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INFY,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,INFY,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IOC,2024,documents,annual_report,Invalid URL (does not start with http): bseindia.com/xml-data/corpfiling/AttachHis/24a0940c-fa5a-4e36-a404-9dab3637ea0c.,WARNING
+DQ-11,IOC,2023,documents,annual_report,Invalid URL (does not start with http): bseindia.com/xml-data/corpfiling/AttachHis//ae413f27-7b30-4cdb-8f1b-8d82e5914e54,WARNING
+DQ-11,IOC,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IOC,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2019,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2018,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRCTC,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2020,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2019,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2018,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,IRFC,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2023,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2022,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2021,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2020,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2019,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2018,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JIOFIN,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JSWENERGY,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JSWENERGY,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JSWENERGY,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JSWSTEEL,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,JSWSTEEL,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,KOTAKBANK,2023,documents,annual_report,Invalid URL (does not start with http): bseindia.com/xml-data/corpfiling/AttachHis//b9e0c871-3353-4ef4-855e-069bcfd848e1,WARNING
+DQ-11,KOTAKBANK,2022,documents,annual_report,Invalid URL (does not start with http): bseindia.com/bseplus/AnnualReport/500247/73932500247.pdf,WARNING
+DQ-11,KOTAKBANK,2021,documents,annual_report,Invalid URL (does not start with http): bseindia.com/bseplus/AnnualReport/500247/69160500247.pdf,WARNING
+DQ-11,KOTAKBANK,2017,documents,annual_report,Invalid URL (does not start with http): bseindia.com/bseplus/AnnualReport/500247/5002470317.pdf,WARNING
+DQ-11,KOTAKBANK,2016,documents,annual_report,Invalid URL (does not start with http): 5002470316.pdf,WARNING
+DQ-11,KOTAKBANK,2015,documents,annual_report,Invalid URL (does not start with http): 5002470315.pdf,WARNING
+DQ-11,KOTAKBANK,2013,documents,annual_report,Invalid URL (does not start with http): untitled,WARNING
+DQ-11,KOTAKBANK,2012,documents,annual_report,Invalid URL (does not start with http): bseindia.com/bseplus/AnnualReport/500247/5002470312.pdf,WARNING
+DQ-11,KOTAKBANK,2011,documents,annual_report,Invalid URL (does not start with http): 5002470311.pdf,WARNING
+DQ-11,KOTAKBANK,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,KOTAKBANK,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2018,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LICI,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2020,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2019,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2018,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LODHA,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LT,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LT,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LTIM,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LTIM,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LTIM,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LTIM,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LTIM,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LTIM,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LTIM,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,LTIM,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,M&M,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,M&M,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,MARUTI,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,MARUTI,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,MOTHERSON,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,MOTHERSON,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,NAUKRI,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,NAUKRI,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,NHPC,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,NHPC,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,NTPC,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,NTPC,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ONGC,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ONGC,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ONGC,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,PFC,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,PFC,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,PIDILITIND,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,PIDILITIND,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,PIDILITIND,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,PNB,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,PNB,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,POWERGRID,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,POWERGRID,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,RECLTD,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,RECLTD,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,RECLTD,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,RELIANCE,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,RELIANCE,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,RELIANCE,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBILIFE,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SBIN,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SHREECEM,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SHREECEM,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SHREECEM,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SHRIRAMFIN,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SHRIRAMFIN,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SHRIRAMFIN,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SIEMENS,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,SIEMENS,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TATACONSUM,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TATACONSUM,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TATAMOTORS,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TATAMOTORS,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TATAPOWER,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TATAPOWER,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TATASTEEL,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TATASTEEL,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TCS,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TCS,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TECHM,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TECHM,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TECHM,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TECHM,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TITAN,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TITAN,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TITAN,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TORNTPHARM,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TORNTPHARM,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TRENT,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TRENT,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TVSMOTOR,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,TVSMOTOR,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ULTRACEMCO,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ULTRACEMCO,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ULTRACEMCO,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,UNIONBANK,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,UNIONBANK,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,UNITDSPR,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,UNITDSPR,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,UNITDSPR,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VBL,2024,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VBL,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VBL,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VBL,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VBL,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VBL,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VBL,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VBL,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VEDL,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,VEDL,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,WIPRO,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,WIPRO,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2021,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2020,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2019,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2018,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2017,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2016,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2015,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2014,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2013,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2012,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2011,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZOMATO,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZYDUSLIFE,2010,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-11,ZYDUSLIFE,2009,documents,annual_report,Invalid URL (does not start with http): Null,WARNING
+DQ-12,JIOFIN,,profitandloss,year,Low coverage: only 2 year(s) of financial history (minimum 5),WARNING
+DQ-15,ABB,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ABB,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ABB,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ABB,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ABB,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ABB,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ADANIENSOL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ADANIENSOL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ADANIENSOL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ADANIENSOL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ADANIENSOL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ADANIENSOL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ADANIENT,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ADANIENT,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ADANIENT,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ADANIENT,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ADANIENT,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ADANIENT,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ADANIGREEN,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ADANIGREEN,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ADANIGREEN,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ADANIGREEN,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ADANIGREEN,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ADANIGREEN,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ADANIPORTS,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ADANIPORTS,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ADANIPORTS,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ADANIPORTS,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ADANIPORTS,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ADANIPORTS,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ADANIPOWER,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ADANIPOWER,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ADANIPOWER,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ADANIPOWER,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ADANIPOWER,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ADANIPOWER,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,AMBUJACEM,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,AMBUJACEM,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,AMBUJACEM,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,AMBUJACEM,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,AMBUJACEM,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,AMBUJACEM,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,APOLLOHOSP,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,APOLLOHOSP,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,APOLLOHOSP,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,APOLLOHOSP,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,APOLLOHOSP,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,APOLLOHOSP,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ASIANPAINT,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ASIANPAINT,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ASIANPAINT,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ASIANPAINT,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ASIANPAINT,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ASIANPAINT,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ATGL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ATGL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ATGL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ATGL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ATGL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ATGL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,AXISBANK,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,AXISBANK,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,AXISBANK,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,AXISBANK,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,AXISBANK,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,AXISBANK,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BAJAJ-AUTO,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BAJAJ-AUTO,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BAJAJ-AUTO,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BAJAJ-AUTO,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BAJAJ-AUTO,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BAJAJ-AUTO,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BAJAJFINSV,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BAJAJFINSV,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BAJAJFINSV,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BAJAJFINSV,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BAJAJFINSV,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BAJAJFINSV,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BAJAJHLDNG,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BAJAJHLDNG,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BAJAJHLDNG,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BAJAJHLDNG,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BAJAJHLDNG,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BAJAJHLDNG,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BAJFINANCE,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BAJFINANCE,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BAJFINANCE,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BAJFINANCE,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BAJFINANCE,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BAJFINANCE,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BANKBARODA,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BANKBARODA,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BANKBARODA,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BANKBARODA,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BANKBARODA,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BANKBARODA,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BEL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BEL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BEL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BEL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BEL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BEL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BHARTIARTL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BHARTIARTL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BHARTIARTL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BHARTIARTL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BHARTIARTL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BHARTIARTL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BHEL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BHEL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BHEL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BHEL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BHEL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BHEL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BOSCHLTD,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BOSCHLTD,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BOSCHLTD,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BOSCHLTD,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BOSCHLTD,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BOSCHLTD,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BPCL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BPCL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BPCL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BPCL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BPCL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BPCL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,BRITANNIA,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,BRITANNIA,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,BRITANNIA,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,BRITANNIA,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,BRITANNIA,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,BRITANNIA,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,CANBK,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,CANBK,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,CANBK,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,CANBK,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,CANBK,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,CANBK,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,CHOLAFIN,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,CHOLAFIN,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,CHOLAFIN,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,CHOLAFIN,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,CHOLAFIN,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,CHOLAFIN,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,CIPLA,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,CIPLA,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,CIPLA,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,CIPLA,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,CIPLA,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,CIPLA,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,COALINDIA,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,COALINDIA,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,COALINDIA,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,COALINDIA,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,COALINDIA,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,COALINDIA,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,DABUR,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,DABUR,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,DABUR,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,DABUR,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,DABUR,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,DABUR,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,DIVISLAB,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,DIVISLAB,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,DIVISLAB,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,DIVISLAB,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,DIVISLAB,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,DIVISLAB,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,DLF,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,DLF,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,DLF,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,DLF,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,DLF,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,DLF,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,DMART,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,DMART,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,DMART,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,DMART,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,DMART,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,DMART,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,DRREDDY,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,DRREDDY,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,DRREDDY,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,DRREDDY,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,DRREDDY,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,DRREDDY,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,EICHERMOT,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,EICHERMOT,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,EICHERMOT,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,EICHERMOT,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,EICHERMOT,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,EICHERMOT,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,GAIL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,GAIL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,GAIL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,GAIL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,GAIL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,GAIL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,GODREJCP,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,GODREJCP,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,GODREJCP,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,GODREJCP,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,GODREJCP,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,GODREJCP,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,GRASIM,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,GRASIM,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,GRASIM,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,GRASIM,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,GRASIM,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,GRASIM,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,HAL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,HAL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,HAL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,HAL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,HAL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,HAL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,HAVELLS,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,HAVELLS,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,HAVELLS,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,HAVELLS,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,HAVELLS,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,HAVELLS,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,HCLTECH,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,HCLTECH,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,HCLTECH,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,HCLTECH,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,HCLTECH,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,HCLTECH,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,HDFCBANK,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,HDFCBANK,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,HDFCBANK,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,HDFCBANK,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,HDFCBANK,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,HDFCBANK,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,HDFCLIFE,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,HDFCLIFE,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,HDFCLIFE,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,HDFCLIFE,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,HDFCLIFE,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,HDFCLIFE,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,HEROMOTOCO,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,HEROMOTOCO,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,HEROMOTOCO,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,HEROMOTOCO,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,HEROMOTOCO,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,HEROMOTOCO,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,HINDALCO,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,HINDALCO,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,HINDALCO,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,HINDALCO,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,HINDALCO,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,HINDALCO,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,HINDUNILVR,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,HINDUNILVR,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,HINDUNILVR,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,HINDUNILVR,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,HINDUNILVR,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,HINDUNILVR,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ICICIBANK,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ICICIBANK,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ICICIBANK,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ICICIBANK,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ICICIBANK,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ICICIBANK,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ICICIGI,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ICICIGI,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ICICIGI,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ICICIGI,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ICICIGI,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ICICIGI,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ICICIPRULI,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ICICIPRULI,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ICICIPRULI,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ICICIPRULI,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ICICIPRULI,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ICICIPRULI,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,INDIGO,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,INDIGO,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,INDIGO,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,INDIGO,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,INDIGO,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,INDIGO,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,INDUSINDBK,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,INDUSINDBK,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,INDUSINDBK,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,INDUSINDBK,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,INDUSINDBK,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,INDUSINDBK,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,INFY,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,INFY,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,INFY,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,INFY,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,INFY,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,INFY,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,IOC,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,IOC,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,IOC,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,IOC,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,IOC,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,IOC,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,IRCTC,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,IRCTC,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,IRCTC,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,IRCTC,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,IRCTC,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,IRCTC,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,IRFC,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,IRFC,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,IRFC,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,IRFC,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,IRFC,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,IRFC,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ITC,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ITC,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ITC,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ITC,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ITC,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ITC,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,JINDALSTEL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,JINDALSTEL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,JINDALSTEL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,JINDALSTEL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,JINDALSTEL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,JINDALSTEL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,JIOFIN,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,JIOFIN,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,JIOFIN,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,JIOFIN,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,JIOFIN,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,JIOFIN,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,JSWENERGY,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,JSWENERGY,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,JSWENERGY,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,JSWENERGY,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,JSWENERGY,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,JSWENERGY,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,JSWSTEEL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,JSWSTEEL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,JSWSTEEL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,JSWSTEEL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,JSWSTEEL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,JSWSTEEL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,KOTAKBANK,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,KOTAKBANK,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,KOTAKBANK,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,KOTAKBANK,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,KOTAKBANK,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,KOTAKBANK,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,LICI,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,LICI,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,LICI,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,LICI,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,LICI,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,LICI,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,LODHA,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,LODHA,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,LODHA,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,LODHA,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,LODHA,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,LODHA,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,LT,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,LT,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,LT,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,LT,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,LT,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,LT,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,LTIM,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,LTIM,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,LTIM,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,LTIM,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,LTIM,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,LTIM,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,M&M,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,M&M,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,M&M,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,M&M,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,M&M,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,M&M,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,MARUTI,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,MARUTI,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,MARUTI,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,MARUTI,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,MARUTI,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,MARUTI,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,MOTHERSON,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,MOTHERSON,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,MOTHERSON,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,MOTHERSON,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,MOTHERSON,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,MOTHERSON,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,NAUKRI,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,NAUKRI,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,NAUKRI,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,NAUKRI,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,NAUKRI,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,NAUKRI,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,NESTLEIND,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,NESTLEIND,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,NESTLEIND,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,NESTLEIND,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,NESTLEIND,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,NESTLEIND,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,NHPC,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,NHPC,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,NHPC,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,NHPC,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,NHPC,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,NHPC,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,NTPC,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,NTPC,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,NTPC,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,NTPC,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,NTPC,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,NTPC,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,ONGC,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,ONGC,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,ONGC,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,ONGC,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,ONGC,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,ONGC,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,PFC,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,PFC,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,PFC,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,PFC,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,PFC,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,PFC,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,PIDILITIND,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,PIDILITIND,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,PIDILITIND,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,PIDILITIND,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,PIDILITIND,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,PIDILITIND,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,PNB,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,PNB,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,PNB,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,PNB,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,PNB,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,PNB,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,POWERGRID,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,POWERGRID,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,POWERGRID,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,POWERGRID,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,POWERGRID,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,POWERGRID,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,RECLTD,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,RECLTD,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,RECLTD,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,RECLTD,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,RECLTD,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,RECLTD,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,RELIANCE,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,RELIANCE,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,RELIANCE,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,RELIANCE,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,RELIANCE,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,RELIANCE,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,SBILIFE,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,SBILIFE,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,SBILIFE,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,SBILIFE,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,SBILIFE,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,SBILIFE,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,SBIN,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,SBIN,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,SBIN,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,SBIN,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,SBIN,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,SBIN,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,SHREECEM,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,SHREECEM,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,SHREECEM,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,SHREECEM,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,SHREECEM,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,SHREECEM,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,SHRIRAMFIN,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,SHRIRAMFIN,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,SHRIRAMFIN,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,SHRIRAMFIN,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,SHRIRAMFIN,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,SHRIRAMFIN,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,SIEMENS,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,SIEMENS,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,SIEMENS,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,SIEMENS,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,SIEMENS,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,SIEMENS,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,SUNPHARMA,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,SUNPHARMA,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,SUNPHARMA,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,SUNPHARMA,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,SUNPHARMA,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,SUNPHARMA,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TATACONSUM,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TATACONSUM,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TATACONSUM,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TATACONSUM,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TATACONSUM,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TATACONSUM,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TATAMOTORS,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TATAMOTORS,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TATAMOTORS,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TATAMOTORS,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TATAMOTORS,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TATAMOTORS,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TATAPOWER,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TATAPOWER,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TATAPOWER,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TATAPOWER,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TATAPOWER,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TATAPOWER,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TATASTEEL,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TATASTEEL,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TATASTEEL,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TATASTEEL,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TATASTEEL,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TATASTEEL,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TCS,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TCS,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TCS,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TCS,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TCS,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TCS,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TECHM,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TECHM,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TECHM,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TECHM,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TECHM,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TECHM,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TITAN,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TITAN,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TITAN,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TITAN,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TITAN,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TITAN,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TORNTPHARM,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TORNTPHARM,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TORNTPHARM,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TORNTPHARM,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TORNTPHARM,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TORNTPHARM,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TRENT,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TRENT,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TRENT,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TRENT,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TRENT,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TRENT,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING
+DQ-15,TVSMOTOR,2019,market_cap,year,Invalid year format: '2019' (expected YYYY-MM),WARNING
+DQ-15,TVSMOTOR,2020,market_cap,year,Invalid year format: '2020' (expected YYYY-MM),WARNING
+DQ-15,TVSMOTOR,2021,market_cap,year,Invalid year format: '2021' (expected YYYY-MM),WARNING
+DQ-15,TVSMOTOR,2022,market_cap,year,Invalid year format: '2022' (expected YYYY-MM),WARNING
+DQ-15,TVSMOTOR,2023,market_cap,year,Invalid year format: '2023' (expected YYYY-MM),WARNING
+DQ-15,TVSMOTOR,2024,market_cap,year,Invalid year format: '2024' (expected YYYY-MM),WARNING

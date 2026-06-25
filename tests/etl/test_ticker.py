@@ -1,5 +1,9 @@
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 import pytest
 from src.etl.normaliser import normalize_ticker
+
 
 def test_normalize_ticker_basic():
     assert normalize_ticker("tcs") == "TCS"
