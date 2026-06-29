@@ -63,11 +63,8 @@ def clean_dataframe(df, filename):
         df = df[df[year_col].notna()]
         df = df[df[year_col].astype(str).str.strip().str.upper() != 'TTM']
         
-        # Determine if we should apply normalize_year (string representations of month-years)
-        # Check if there are values containing alphabetical characters representing months
-        has_month_strings = df[year_col].astype(str).str.contains(r'[a-zA-Z]').any()
-        if has_month_strings:
-            df[year_col] = df[year_col].apply(normalize_year)
+        # Always apply normalize_year to standardize both month-years and numeric years
+        df[year_col] = df[year_col].apply(normalize_year)
             
     # 3. Handle duplicates
     if comp_col == 'company_id' and year_col == 'year':
