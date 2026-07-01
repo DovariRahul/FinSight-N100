@@ -170,3 +170,134 @@ def calculate_roa(
         logger.warning("Total Assets is 0 — cannot compute ROA.")
         return None
     return round((net_profit / total_assets) * 100, 2)
+
+
+# ── Day 9: Leverage and Efficiency Ratio Calculations ─────────────────────────
+
+def calculate_debt_to_equity(
+    borrowings: Optional[float],
+    equity_capital: Optional[float],
+    reserves: Optional[float],
+) -> Optional[float]:
+    """
+    Debt-to-Equity = Borrowings / (Equity + Reserves)
+
+    Shows how much debt a company has compared to shareholders' investment.
+    Returns 0 when borrowings is 0.
+    Returns None when (equity_capital + reserves) <= 0 or any input is None.
+    """
+    if borrowings is None or equity_capital is None or reserves is None:
+        return None
+    if borrowings == 0:
+        equity_and_reserves = equity_capital + reserves
+        if equity_and_reserves <= 0:
+            logger.warning(
+                "Equity + Reserves = %.2f (<=0) — cannot compute Debt-to-Equity.",
+                equity_and_reserves,
+            )
+            return None
+        return 0.0
+
+    equity_and_reserves = equity_capital + reserves
+    if equity_and_reserves <= 0:
+        logger.warning(
+            "Equity + Reserves = %.2f (<=0) — cannot compute Debt-to-Equity.",
+            equity_and_reserves,
+        )
+        return None
+
+    return round(borrowings / equity_and_reserves, 2)
+
+
+def check_high_leverage(
+    de_ratio: Optional[float],
+    broad_sector: Optional[str] = None,
+) -> bool:
+    """
+    High Leverage Warning Flag.
+    Returns True if D/E > 5, unless the company belongs to the Financials sector.
+    Otherwise returns False.
+    """
+    if de_ratio is None:
+        return False
+    if broad_sector and broad_sector in FINANCIAL_SECTORS:
+        return False
+    return de_ratio > 5
+
+
+def calculate_interest_coverage(
+    operating_profit: Optional[float],
+    other_income: Optional[float],
+    interest: Optional[float],
+) -> Optional[float]:
+    """
+    Interest Coverage = (Operating Profit + Other Income) / Interest
+
+    Measures whether the company earns enough profit to pay its interest expenses.
+    Returns None if interest is 0 or any input is None.
+    """
+    if operating_profit is None or other_income is None or interest is None:
+        return None
+    if interest == 0:
+        return None
+    return round((operating_profit + other_income) / interest, 2)
+
+
+def get_icr_label(
+    icr: Optional[float],
+) -> Optional[str]:
+    """
+    Returns 'Debt Free' if ICR is None.
+    Otherwise returns None.
+    """
+    if icr is None:
+        return "Debt Free"
+    return None
+
+
+def check_interest_warning(
+    icr: Optional[float],
+) -> bool:
+    """
+    Returns True if ICR < 1.5 (and not None).
+    Otherwise returns False.
+    """
+    if icr is None:
+        return False
+    return icr < 1.5
+
+
+def calculate_net_debt(
+    borrowings: Optional[float],
+    investments: Optional[float],
+) -> Optional[float]:
+    """
+    Net Debt = Borrowings - Investments
+
+    Measures the company's actual debt after considering its liquid investments.
+    """
+    if borrowings is None or investments is None:
+        return None
+    return round(borrowings - investments, 2)
+
+
+def calculate_asset_turnover(
+    sales: Optional[float],
+    total_assets: Optional[float],
+) -> Optional[float]:
+    """
+    Asset Turnover = Sales / Total Assets
+
+    Measures how efficiently a company uses its assets to generate revenue.
+    Returns None when total_assets <= 0 or any input is None.
+    """
+    if sales is None or total_assets is None:
+        return None
+    if total_assets <= 0:
+        logger.warning(
+            "Total Assets is %.2f (<=0) — cannot compute Asset Turnover.",
+            total_assets,
+        )
+        return None
+    return round(sales / total_assets, 2)
+
